@@ -1,14 +1,14 @@
 //all the provided keys are examples, go to Amazon Cognito and get yours
 
-AWSCognito.config.region = 'eu-west-1'; //This is required to derive the endpoint
+AWSCognito.config.region = 'us-west-2'; //This is required to derive the endpoint
 
 var poolData = {
-    UserPoolId : 'eu-west-1_9jknknuuu7i97', // your user pool id here
-    ClientId : '9832knksndh382u3ukjkjiuiu' // your client id here
+    UserPoolId : 'us-west-2_kW0iiQ0DT', // your user pool id here
+    ClientId : '7i46dodk2o9k9fsrsm3mog073n' // your client id here
 };
 
-var identityPoolId = 'eu-west-1:928sjpf-283osj3-293us3js-82372-730s'; //go to AWS Cognito Federated Identites
+var identityPoolId = 'us-west-2:13f268df-b5c7-4c01-a2c9-e1d0ce718532'; //go to AWS Cognito Federated Identites
 
-var userAttributes = ['email', 'phone_number']; //the standard attributes you require in AWS Cognito
+var userAttributes = ['given_name', 'family_name', 'email'];    //the standard attributes you require in AWS Cognito
 
-var MFARequired = true; //do you require your clients to use MFA?
+var MFARequired = false; //do you require your clients to use MFA?
