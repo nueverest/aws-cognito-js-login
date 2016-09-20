@@ -77,6 +77,8 @@ blowdry.min.css
 # NODE.JS #
 ###########
 
+config.js
+
 # Logs
 logs
 #*.log
