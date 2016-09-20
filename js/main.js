@@ -182,7 +182,7 @@ var AWSInitialize = function(token){
     });
 }
 
-var LoggedIn = function(cognitoUser, session) {
+var LoggedIn = function(cognitoUser, session) {
     this.init = () => {
         AWSInitialize(session.getIdToken().getJwtToken());
 
