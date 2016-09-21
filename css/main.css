@@ -12,7 +12,7 @@ body{
     justify-content: center;
     background-image: url('http://www.designlicks.com/uploads/licks/656x413/17727_20140116011005000000.jpg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     height: 100%;
     margin: 0;
 }
